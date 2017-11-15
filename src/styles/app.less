@@ -1,0 +1,35 @@
+@base-color: #888;
+
+html {
+    color: #333;
+}
+
+body {
+    width: auto;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: @base-color;
+    background-color: #f9f9f9;
+    transition: padding linear .3s;
+    -webkit-font-smoothing: antialiased;
+    max-width: 640px;
+    min-width: 320px;
+
+    &.is-in-app {
+        padding-top: 0;
+    }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    word-break: break-all;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
