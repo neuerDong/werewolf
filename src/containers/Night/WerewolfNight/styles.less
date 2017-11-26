@@ -1,0 +1,37 @@
+@yellowish: #ffd998;
+
+.werewolf-night {
+    height: 100%;
+    background: url("../imgs/bg.png");
+    background-size: cover;
+    text-align: center;
+
+    .participant {
+        margin-top: 3%;
+
+        .row {
+            display: flex;
+            justify-content: center;
+            margin-top: 3%;
+
+            .cell {
+                flex: auto;
+                position: relative;
+
+                img {
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 32px;
+                }
+
+                .killed {
+                    position: absolute;
+                    height: 80px;
+                    width: 80px;
+                    margin-left: -8px;
+                    margin-top: -5px;
+                }
+            }
+        }
+    }
+}
