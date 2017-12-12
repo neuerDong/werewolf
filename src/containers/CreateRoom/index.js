@@ -2,6 +2,7 @@
  * External dependencies
  */
 import React, { Component } from 'react';
+import { browserHistory } from 'react-router';
 
 /**
  * Internal dependencies
@@ -28,7 +29,11 @@ class CreateRoom extends Component {
     }
 
     createRoom() {
-        console.log('creating room...!');
+        const params = {
+            isGameOwner: true,
+        };
+
+        browserHistory.push({pathname: '/readiness', state: params});
     }
 
     render () {

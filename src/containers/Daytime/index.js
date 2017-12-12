@@ -22,7 +22,7 @@ class Daytime extends Component {
 
         this.state = {
             role: 'werewolf',
-            isGameOwner: true,
+            isGameOwner: false,
         }
     }
 

@@ -24,8 +24,8 @@ class WitchNight extends Component {
             <div className="witch-night">
                 <Header text={ headerTypes.witch } />
                 <Role role={ roles.witch } />
-                <div>
-                    <img src={require('../imgs/dying-message.png')} className="dying-message" />
+                <div className="dying-message">
+                    <img src={require('../imgs/dying-message.png')} />
                 </div>
                 <div className="buttons">
                     <span>
@@ -35,28 +35,6 @@ class WitchNight extends Component {
                         <Button buttonType={ buttonTypes.unSave } />
                     </span>
                 </div>
-                {/*<div className="participant">
-                    <div className="row">
-                        <div className="cell">
-                            <img src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg' />
-                            <div>玩家名称</div>
-                        </div>
-                        <div className="cell">
-                            <img src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg' />
-                            <div>玩家名称</div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="cell">
-                            <img src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg' />
-                            <div>玩家名称</div>
-                        </div>
-                        <div className="cell">
-                            <img src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg' />
-                            <div>玩家名称</div>
-                        </div>
-                    </div>
-                </div>*/}
             </div>
         )
     }

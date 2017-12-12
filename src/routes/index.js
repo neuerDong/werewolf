@@ -1,6 +1,12 @@
+/**
+ * External dependencies
+ */
 import React from 'react';
-import { Router, Route, browserHistory, IndexRoute } from 'react-router';
+import { Router, Route, browserHistory, IndexRoute, hashHistory } from 'react-router';
 
+/**
+ * Internal dependencies
+ */
 import Frame from '../containers/Frame';
 import CreateRoom from '../containers/CreateRoom';
 import Readiness from '../containers/Readiness';
@@ -11,8 +17,8 @@ import WitchNight from '../containers/Night/WitchNight';
 import VillagerNight from '../containers/Night/VillagerNight';
 
 export default () => (
-    <Router history={browserHistory}>
-        <Route path="/" components={CreateRoom} />
+    <Router history={hashHistory}>
+        <Route path="/" components={Frame} />
         <Route path="/create-room" component={CreateRoom} />
         <Route path="/readiness" component={Readiness} />
         <Route path="/daytime" component={DayTime} />

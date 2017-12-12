@@ -20,10 +20,14 @@ class Readiness extends Component {
         super(props);
 
         this.state = {
-            isGameOwner: false,
+            isGameOwner: true,
         }
     }
 
+    startGame() {
+        console.log('start game...');
+
+    }
     render () {
         return (
             <div className="readiness">
@@ -34,13 +38,15 @@ class Readiness extends Component {
                     <Rule />
                 </div>
                 {this.state.isGameOwner && (
-                    <div className="start-button">
+                    <div className="start-button" onClick={ this.startGame.bind(this) }>
                         <Button buttonType={ buttonTypes.gameStart } />
                     </div>
                 )}
-                <div className="bottom-waiting">
-                    <img className="text" src={require('./imgs/waiting.png')} />
-                </div>
+                {!this.state.isGameOwner && (
+                    <div className="bottom-waiting">
+                        <img className="text" src={require('./imgs/waiting.png')} />
+                    </div>
+                )}
             </div>
         );
     }

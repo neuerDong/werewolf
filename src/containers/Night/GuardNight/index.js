@@ -37,7 +37,7 @@ class GuardNight extends Component {
                         <div className="cell">
                             {this.state.shielded === 1 && <img className="shielded" src={require('./imgs/shield.png')}/>}
                             <img
-                                src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg'
+                                src='http://himg.bdimg.com/sys/portrait/item/b3436e616ee5ae88e69c9be880859325.jpg'
                                 onClick={this.avatarClick.bind(this, 1)}
                             />
                             <div>玩家名称</div>
@@ -45,7 +45,7 @@ class GuardNight extends Component {
                         <div className="cell">
                             {this.state.shielded === 2 && <img className="shielded" src={require('./imgs/shield.png')}/>}
                             <img
-                                src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg'
+                                src='http://himg.bdimg.com/sys/portrait/item/b3436e616ee5ae88e69c9be880859325.jpg'
                                 onClick={this.avatarClick.bind(this, 2)}
                             />
                             <div>玩家名称</div>
@@ -55,7 +55,7 @@ class GuardNight extends Component {
                         <div className="cell">
                             {this.state.shielded === 3 && <img className="shielded" src={require('./imgs/shield.png')}/>}
                             <img
-                                src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg'
+                                src='http://himg.bdimg.com/sys/portrait/item/b3436e616ee5ae88e69c9be880859325.jpg'
                                 onClick={this.avatarClick.bind(this, 3)}
                             />
                             <div>玩家名称</div>
@@ -63,7 +63,7 @@ class GuardNight extends Component {
                         <div className="cell">
                             {this.state.shielded === 4 && <img className="shielded" src={require('./imgs/shield.png')}/>}
                             <img
-                                src='https://lh3.googleusercontent.com/-3KSfzAAh_0I/AAAAAAAAAAI/AAAAAAAAAAA/AFiYof1NxUtRYn0Yiyk7sVURMZmiDMsjbg/s64-c-mo/photo.jpg'
+                                src='http://himg.bdimg.com/sys/portrait/item/b3436e616ee5ae88e69c9be880859325.jpg'
                                 onClick={this.avatarClick.bind(this, 4)}
                             />
                             <div>玩家名称</div>
